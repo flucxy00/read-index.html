@@ -1,0 +1,55 @@
+div {
+    display: inline-block;
+}
+
+img {
+    width: 50%;
+    float: left;
+}
+
+.footer {
+    float: left;
+}
+
+#done {
+    float: right;
+    width: 100px;
+}
+
+.note {
+    margin-right: 10px;
+
+}
+
+.done {
+    margin-right: 10px;
+}
+
+.si {
+    color: #fb4;
+}
+
+@media(max-width:600px) {
+    #done {
+        float: left;
+    }
+
+    p {
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+
+    .done {
+        float: left;
+    }
+
+    h1 {
+        font-size: 100.5%;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100px;
+    }
+
+}

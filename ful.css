@@ -1,0 +1,62 @@
+.bin .done {
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+
+.max .lo {
+    display: inline flex;
+    position: relative;
+    top: 20px;
+}
+
+.box .so {
+    display: flexbox;
+    position: relative;
+    top: 20px;
+}
+
+h4 {
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+em {
+    color: firebrick;
+    font-style: normal;
+}
+
+#foter {
+    color: black;
+    font-style: normal;
+    font-size: 12px;
+}
+
+body {
+    background-color: blue;
+}
+
+@media(max-width:319px) {
+    body {
+        background-color: coral;
+    }
+}
+
+@media(min-width:481px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media(min-width:601px) {
+    body {
+        background-color: red;
+    }
+}
+
+.fine {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}

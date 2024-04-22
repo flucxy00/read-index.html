@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .done {
+            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 20px 50px;
+            width: 200px;
+            background-color: whitesmoke;
+            border: 3px solid red;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        .main {
+            grid-column: span2;
+        }
+
+        .white {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Grid</h1>
+    <div class="done">
+        <div class="main"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+    </div>
+</body>
+
+</html>

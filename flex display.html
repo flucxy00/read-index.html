@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex display</title>
+    <style>
+        .container {
+            display: inline-flex;
+            gap: 20px;
+
+        }
+
+        .container>* {
+            flex-basis: 200px;
+        }
+
+        .done {
+            color: #b58863;
+            background-color: firebrick;
+        }
+
+        .first {
+            color: aqua;
+            background-color: blue;
+            font-weight: 500;
+        }
+
+        .second {
+            color: blueviolet;
+            background-color: #b58863;
+        }
+
+        @media(max-width:600px) {
+            div {
+                flex-direction: column;
+            }
+
+            .done {
+                background-color: black;
+            }
+
+            .second {
+                background-color: firebrick;
+            }
+
+            .first {
+                color: whitesmoke;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="done"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi rem minus ullam neque
+            odio ipsa voluptatem provident, quisquam voluptatibus veniam. Eveniet, expedita magni maiores ad quos
+            accusantium. Perferendis, unde!</p>
+        <p class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ad hic vero deleniti at
+            eius ratione iusto velit, autem ipsa dolorem placeat? Dolore laudantium, iusto reiciendis voluptas deleniti
+            aperiam excepturi distinctio natus! Obcaecati inventore magni rem laboriosam doloribus voluptates voluptatem
+            necessitatibus expedita! Dolores delectus quos, alias ipsam facere exercitationem obcaecati.</p>
+        <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus dolor eveniet ex
+            labore quis dolorum laboriosam aliquid, hic aspernatur in ea suscipit eaque ullam velit architecto iure
+            deleniti assumenda aperiam repellendus sit quas fugit! Culpa, quae? Repellat nemo neque, earum eos ducimus
+            asperiores odio quisquam quidem, ex blanditiis quae modi recusandae expedita debitis. Aliquid id inventore
+            dolores quam. Perferendis necessitatibus temporibus at laboriosam dolorum exercitationem, provident
+            voluptatem ipsam? Iste doloremque odio harum, vero voluptatibus ex delectus aspernatur deleniti libero iusto
+            quisquam sapiente error ipsa cupiditate quia laborum. A, excepturi mollitia. Quas natus voluptatibus harum
+            impedit error cum recusandae veniam.</p>
+    </div>
+
+</body>
+
+</html>
